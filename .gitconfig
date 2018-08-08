@@ -1,0 +1,18 @@
+[filter "medea"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[user]
+	name = john.doe
+	email = john.doe@xyz.com
+[color]
+	ui=auto
+[alias]
+	hist = log --oneline --all --decorate --graph
+[core]
+	autocrlf = false
+[merge]
+	tool = vimdiff
+[push]
+	default = simple
+[i18n]
+	commitEncoding = utf8
